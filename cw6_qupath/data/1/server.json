@@ -1,0 +1,143 @@
+{
+  "builderType": "uri",
+  "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+  "uri": "file:/mnt/imgserver/IA/Projects/spaom/images/melanoma_cropped.ome.tiff",
+  "args": [
+    "--series",
+    "0"
+  ],
+  "metadata": {
+    "name": "melanoma_cropped.ome.tiff",
+    "width": 6629,
+    "height": 5593,
+    "sizeZ": 1,
+    "sizeT": 1,
+    "channelType": "DEFAULT",
+    "isRGB": false,
+    "pixelType": "UINT16",
+    "levels": [
+      {
+        "downsample": 1.0,
+        "width": 6629,
+        "height": 5593
+      },
+      {
+        "downsample": 2.0,
+        "width": 3314,
+        "height": 2796
+      },
+      {
+        "downsample": 4.0,
+        "width": 1657,
+        "height": 1398
+      },
+      {
+        "downsample": 8.0,
+        "width": 828,
+        "height": 699
+      },
+      {
+        "downsample": 16.0,
+        "width": 414,
+        "height": 349
+      }
+    ],
+    "channels": [
+      {
+        "name": "DAPI",
+        "color": -1
+      },
+      {
+        "name": "CD3 ",
+        "color": -16711711
+      },
+      {
+        "name": "CK",
+        "color": -65536
+      },
+      {
+        "name": "CD8 ",
+        "color": -65536
+      },
+      {
+        "name": "CD20 ",
+        "color": -10419969
+      },
+      {
+        "name": "CD56 ",
+        "color": -16758529
+      },
+      {
+        "name": "CD11c ",
+        "color": -16711797
+      },
+      {
+        "name": "CD68 ",
+        "color": -29696
+      },
+      {
+        "name": "CD45",
+        "color": -256
+      },
+      {
+        "name": "PD-1 ",
+        "color": -8847616
+      },
+      {
+        "name": "aSMA ",
+        "color": -62208
+      },
+      {
+        "name": "Ki67 ",
+        "color": -852224
+      },
+      {
+        "name": "S100 ",
+        "color": -65536
+      },
+      {
+        "name": "PD-L1 ",
+        "color": -13827841
+      },
+      {
+        "name": "Vimentin ",
+        "color": -13893888
+      },
+      {
+        "name": "CD14 ",
+        "color": -65408
+      },
+      {
+        "name": "HLA-DR",
+        "color": -16721921
+      },
+      {
+        "name": "GranzymeB ",
+        "color": -65281
+      },
+      {
+        "name": "CD34 ",
+        "color": -8716033
+      }
+    ],
+    "maxValue": 4095,
+    "pixelCalibration": {
+      "pixelWidth": {
+        "value": 0.28,
+        "unit": "µm"
+      },
+      "pixelHeight": {
+        "value": 0.28,
+        "unit": "µm"
+      },
+      "zSpacing": {
+        "value": 1.0,
+        "unit": "z-slice"
+      },
+      "timeUnit": "SECONDS",
+      "timepoints": []
+    },
+    "preferredTileWidth": 512,
+    "preferredTileHeight": 512
+  }
+}

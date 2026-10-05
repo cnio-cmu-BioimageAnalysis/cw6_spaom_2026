@@ -1,0 +1,1 @@
+{"timestamp":1791196193969,"imageType":"FLUORESCENCE","server":{"width":6629,"height":5593,"sizeC":19,"sizeZ":1,"sizeT":1},"hierarchy":{"nObjects":13000,"objectTypeCounts":{"Root objects":1,"Annotations":1,"Cells":12998},"annotationClassificationCounts":{"Unclassified":1},"detectionClassificationCounts":{"BG":9652,"TCells":1067,"CD8+TCells":2279}}}

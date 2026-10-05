@@ -1,0 +1,28 @@
+{
+  "object_classifier_type": "SimpleClassifier",
+  "function": {
+    "classifier_fun": "ClassifyByMeasurementFunction",
+    "measurement": "Cell: CD8: Mean",
+    "pathClassBelow": {
+      "name": "CD8-",
+      "color": [
+        39,
+        171,
+        123
+      ]
+    },
+    "threshold": 65.0
+  },
+  "pathClasses": [
+    {
+      "name": "CD8-",
+      "color": [
+        39,
+        171,
+        123
+      ]
+    }
+  ],
+  "filter": "DETECTIONS_ALL",
+  "timestamp": 1790686736840
+}

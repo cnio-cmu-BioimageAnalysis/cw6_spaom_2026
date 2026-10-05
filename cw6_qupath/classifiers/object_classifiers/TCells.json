@@ -1,0 +1,105 @@
+{
+  "object_classifier_type": "CompositeClassifier",
+  "classifiers": [
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "Cell: CD45: Mean",
+        "pathClassEquals": {
+          "name": "CD45+",
+          "color": [
+            128,
+            0,
+            0
+          ]
+        },
+        "pathClassAbove": {
+          "name": "CD45+",
+          "color": [
+            128,
+            0,
+            0
+          ]
+        },
+        "threshold": 250.0
+      },
+      "pathClasses": [
+        {
+          "name": "CD45+",
+          "color": [
+            128,
+            0,
+            0
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1790685832495
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "Cell: CD3: Mean",
+        "pathClassEquals": {
+          "name": "CD3+",
+          "color": [
+            31,
+            64,
+            89
+          ]
+        },
+        "pathClassAbove": {
+          "name": "CD3+",
+          "color": [
+            31,
+            64,
+            89
+          ]
+        },
+        "threshold": 65.0
+      },
+      "pathClasses": [
+        {
+          "name": "CD3+",
+          "color": [
+            31,
+            64,
+            89
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1790686420882
+    },
+    {
+      "object_classifier_type": "SimpleClassifier",
+      "function": {
+        "classifier_fun": "ClassifyByMeasurementFunction",
+        "measurement": "Cell: CD8: Mean",
+        "pathClassBelow": {
+          "name": "CD8-",
+          "color": [
+            39,
+            171,
+            123
+          ]
+        },
+        "threshold": 65.0
+      },
+      "pathClasses": [
+        {
+          "name": "CD8-",
+          "color": [
+            39,
+            171,
+            123
+          ]
+        }
+      ],
+      "filter": "DETECTIONS_ALL",
+      "timestamp": 1790686736840
+    }
+  ]
+}
