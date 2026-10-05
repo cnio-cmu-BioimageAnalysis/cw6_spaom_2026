@@ -26,14 +26,12 @@ cw6_spaom_2026/
 │   ├── data/
 │   │   └── .gitkeep
 │   ├── geojson_masks/
-│   │   └── melanoma_cropped.geojson
 │   ├── scripts/
 │   │   └── cellpose_segmentation.groovy
 │   └── project.qpproj
 ├── images/
 │   └── melanoma_cropped.ome.tiff
 └── docs/
-    └── SPAOM2026_QuPath_Practical_Guide.docx
 ```
 
 ## Software requirements
