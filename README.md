@@ -66,8 +66,8 @@ cw6_spaom_2026/cw6_qupath/geojson_masks/melanoma_cropped.geojson
 
 ```bash
 git lfs install
-git clone https://github.com/ORGANIZATION/REPOSITORY.git
-cd REPOSITORY
+git https://github.com/cnio-cmu-BioimageAnalysis/cw6_spaom_2026.git
+cd cw6_spaom_2026
 ```
 
 Replace `ORGANIZATION/REPOSITORY` with the final repository address.
