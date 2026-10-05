@@ -224,13 +224,6 @@ QuPath can detect classified training annotations present in the loaded image. B
 
 Temporarily hide cell detections, cell-classification overlays, and unrelated training annotations. Re-enable them after the tumor mask has been validated.
 
-## Workshop materials
-
-The practical guide is expected at:
-
-```text
-cw6_spaom_2026/docs/SPAOM2026_QuPath_Practical_Guide.docx
-```
 
 
 ## Contact
